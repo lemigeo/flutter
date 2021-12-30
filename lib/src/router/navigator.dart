@@ -40,11 +40,6 @@ class _AppNavigatorState extends State<AppNavigator> {
         //   routeState.go('/books/popular');
         // }
 
-        // if (route.settings is Page &&
-        //     (route.settings as Page).key == _authorDetailsKey) {
-        //   routeState.go('/authors');
-        // }
-
         return route.didPop(result);
       },
       pages: [
